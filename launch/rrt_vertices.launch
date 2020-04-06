@@ -1,6 +1,6 @@
 <launch>
 <include file="$(find mapr_5_student)/launch/map_medium.launch" />
-<node name="graph_search" pkg="mapr_5_student" type="rrt_vertex.py" output="screen" />
+<node name="graph_search" pkg="mapr_5_student" type="rrt_vertices.py" output="screen" />
 <node name="points" pkg="mapr_5_student" type="points.py" output="screen" />
 <node name="rviz" pkg="rviz" type="rviz" />
 </launch>
